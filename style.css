@@ -1,0 +1,16 @@
+body::before {
+    display: block;
+    content: '';
+    height: 50px;
+    
+}
+
+#about, nav, #exp {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
